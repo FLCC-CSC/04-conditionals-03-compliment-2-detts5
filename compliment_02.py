@@ -11,9 +11,7 @@ import random
 
 compliments = [
     "You have wonderful eyes.",
-    "You are an awesome person.",
-    "You're a smart cookie.",
-    "You light up the room."
+    
 ]
 
 response = input("Would you like a compliment? ")
@@ -23,7 +21,7 @@ if response == "yes" or response == "y":
 else:
     print("No compliment for you!")
 
-print("Thank you for playing!")
+print("Thank you for playing")
 
 
 
