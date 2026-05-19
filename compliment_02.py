@@ -5,16 +5,25 @@
 # BRIEF DESCRIPTION: This program asks the user if they would like a compliment. 
 # If the user types exactly "yes", a compliment is given.
 # Any other response results in "No compliment for you!"
-# The user is thanked for participating at the end.
+# The user is thanked for playing at the end.
+
+import random
+
+compliments = [
+    "You have wonderful eyes.",
+    "You are an awesome person.",
+    "You're a smart cookie.",
+    "You light up the room."
+]
 
 response = input("Would you like a compliment? ")
 
-if response == "yes":
-    print("You have a fantastic attitude and a bright future ahead!")
+if response == "yes" or response == "y":
+    print(random.choice(compliments))
 else:
     print("No compliment for you!")
 
-print("Thank you for participating!")
+print("Thank you for playing!")
 
 
 
