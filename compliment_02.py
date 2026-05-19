@@ -1,15 +1,22 @@
 # FILE NAME - compliment_02.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Dan Dettman
+# DATE: 3/2/2026
+# BRIEF DESCRIPTION: This program asks the user if they would like a compliment. 
+# If the user types exactly "yes", a compliment is given.
+# Any other response results in "No compliment for you!"
+# The user is thanked for participating at the end.
+
+response = input("Would you like a compliment? ")
+
+if response == "yes":
+    print("You have a fantastic attitude and a bright future ahead!")
+else:
+    print("No compliment for you!")
+
+print("Thank you for participating!")
 
 
-
-# 1. Make sure you fill out the comments above
-# 2. Write your code in the proper spot
-# 3. Be sure to answer the Reflection Questions and Attestation below
-# 4. The Sample Output has been included in this code for your convenience
 
 
 
@@ -69,7 +76,7 @@ Thank you for playing.
 
 '''
 
-1. Did you struggle with this lab (YES/NO)?
+1. Did you struggle with this lab (YES/NO)?No
 
 
 
