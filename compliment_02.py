@@ -18,7 +18,6 @@ response = input("Would you like a compliment? ")
 
 if response == "yes" or response == "y":
     print(random.choice(compliments))
-    print("No compliment for you!")
     print("Thank you for playing.")
 else:
     print('No compliment for you!')
